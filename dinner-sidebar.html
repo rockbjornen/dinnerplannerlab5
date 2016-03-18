@@ -1,0 +1,43 @@
+
+<!--<ng-include src="'partials/header.html'"></ng-include>-->
+
+<div class="left">
+	<h2>My dinner</h2>
+	<div id="leftView">
+		<div>
+		<span>People: </span> 
+		<input type="number" ng-model="numberOfGuests" ng-change="setNumberOfGuest(numberOfGuests)"/>
+		</div>
+
+		<div class="dishnamecost">
+			<span id="dishname">Dish Name</span>
+			<span id="cost">Cost</span>
+		</div>
+
+		<div class="dishes">
+			<div id="dishes" ng-repeat="dish in menu">
+				<a ng-click="remove(dish.RecipeID)" href="/#/search">
+					<span id="dishmenuname">{{dish.Title}}</span>
+				</a>				
+				<span id="costnum">{{dishPrice(dish)}}</span>
+			</div>
+
+		</div>
+		<div id="total-cost">
+			<span id="currency">SEK</span>
+			<span id="totcost">{{menuPrice()}}</span>
+		</div>
+		<div class="centerbutton">
+			<button id="confbtn" type="button" ng-click="confirm('/print')">Confirm Dinner</button>
+		</div>
+	</div>
+</div>
+
+<!-- TODO in Lab 5: Display the items on the menu with cost for each -->
+
+
+<!-- Displaying number of guests both in input box and here is redundant. It is here only for the example
+purpose so you can see how some information from the model can be retrieved. In Lab 5 you will replace 
+this with Total price of the menu -->
+
+

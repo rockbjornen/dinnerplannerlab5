@@ -1,0 +1,21 @@
+<div id="middle5">
+	<div class="middle-top5">
+		<span>My dinner: <span id="guestnum5">{{getNumberOfGuests()}}</span> people</span>
+		<button id="editbutton" ng-click="editclick('/search')" type="button">Go back and edit dinner</button>
+	</div>
+
+	<div id="lastdishes">
+		<div id="middle-bottom" ng-repeat="dish in menu">
+			<img ng-src="{{dish.ImageURL}}">
+		<div class="text5">
+			<p id="rubrik">{{dish.Title}}</p>
+			<p id="text5">{{dish.Description}}</p>
+		</div>
+		<div class="prep">
+			<p id="preprubrik">Preparation</p>
+			<p id="preptext">{{dish.Instructions}}</p>
+		</div>
+	</div>
+
+	</div>
+</div>

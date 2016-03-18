@@ -1,0 +1,567 @@
+html{
+	height:100%;
+}
+
+
+/* PAGE 1 */
+
+#ernst {
+
+    	background-image: url("ernst2.jpg");
+    	background-color: rgba(255, 229, 158, 0.7);
+    	width: auto;
+    	height: auto;
+}
+
+.startheader{
+	background-color: rgba(255, 229, 158, 0.7);
+	padding: 40px 0px;
+	border-width:2px 2px 2px 2px;
+	border-style:solid;
+}
+.startheader h1{
+	font-family: arial;
+	opacity:1.0;
+	font-size: 36pt;
+	text-transform: uppercase; 
+	display: inline;
+	margin: 20px 40px; 
+
+}
+
+.startheader span{
+	font-family: arial;
+	font-style: italic;
+
+}
+
+.startcontainer{
+	flex:1;
+	display:flex; 
+	align-items:stretch; 
+	flex-direction:row;
+}
+
+.startmiddle {
+	width:500px;
+	height:300px;
+	background-color: rgba(255, 255, 255, 0.7);
+	margin: 120px 0;
+	padding: 0 20px 0 20px;
+}
+
+#sectitle {
+	font-size: 20pt;
+	border-width:0 0 2px 0;
+	border-style: solid;
+	vertical-align: top;
+	margin-top: 0px;
+	line-height: 60px;
+}
+
+#starttext {
+	font-size: 11pt;
+}
+
+#startquickly {
+	font-size: 11pt;
+	margin-top: 40px;
+}
+
+#createdinner {
+	background-color: orange;
+	font-size: 12pt;
+	width:200px;
+	height:40px;
+	font-weight: bold;
+}
+
+
+
+/* PAGE 2 */
+
+
+
+.header{
+	background-color: #eeeeef;
+	padding: 40px 0px;
+	border-width:2px 2px 2px 2px;
+	border-style:solid;
+}
+.header h1{
+	font-family: arial;
+	font-size: 36pt;
+	text-transform: uppercase; 
+	display: inline;
+	margin: 20px 40px; 
+
+}
+
+.header span{
+	font-family: arial;
+	font-style: italic;
+
+}
+
+.container{
+	flex:1;
+	display:flex; 
+	align-items:stretch; 
+	flex-direction:row;
+}
+
+.left {
+	width: 200px; 
+	height: 80vh;
+	float: left; 
+	background-color:WHITE; 
+	border-width: 0 0 0 2px; 
+	border-style:solid;
+
+}
+
+.left h2{
+	font-family: arial; 
+	font-size: 16pt; 
+	margin: 20px 10px;
+}
+
+.left span {
+	font-family: arial; margin: 2px 10px;
+}
+
+
+.left input{
+	width: 30px;
+}
+
+.left .btn{
+	width:20px;
+	height:20px;
+}
+
+.dishnamecost {
+	border-width: 2px 0px; border-style: solid; margin-top: 10px; background-color: #eeeeef
+}
+
+#dishname{
+	font-family: arial; display:inline-block; width: 80px;
+}
+
+#cost{
+	font-family: arial; display:inline-block; width: 75px; text-align: right;
+
+}
+
+
+.dishes {
+	border-width: 0 0 1px 0;
+	border-style: solid;
+	padding: 20px 0px;
+	margin: 0 10px 0 10px;
+}
+
+
+#pending, #dishmenuname {
+	font-family: arial;
+	width: 80px;
+	display:inline-block;
+	margin: 2px 0px;
+}
+
+
+#costnum, #pendcost {
+	font-family: arial;
+	display:inline-block;
+	width: 80px; 
+	text-align: right;
+	margin: 2px 0px;
+}
+
+
+.total-cost {
+	text-align: right;
+	padding: 30px 0px;
+}
+
+
+.middle-top {
+	height:150px; background-color: #ffe59e; padding: 0px 40px; border-width:0 0 2px 0; border-style: solid;
+
+}
+
+.middle-top h3{
+	font-family: arial; text-align: left; line-height:40px; border-width: 0px 0px 1.9px 0px; border-style:solid;
+}
+
+.middle-top input{
+	float: left;
+}
+
+.middle-top button{
+	background-color: orange; float: left; margin-right: 50px;
+	height: 25px;
+}
+
+.left button {
+	width: 140px;
+	height: 25px;
+	background-color: orange;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.centerbutton {
+	text-align: center;
+}
+
+.middle-top select{
+	float: left;
+}
+
+#middle2 {
+	flex:1; display:flex; align-items:stretch; flex-direction:column; border-width: 0 2px 0 2px; border-style: solid;
+	height:80vh;
+}
+
+
+#images2{
+	padding: 60px 40px 0px 40px;
+	height: auto;
+
+}
+
+.image {
+	width: 200px; height:200px;
+	display:inline-block;
+	padding-bottom: 60px;
+	text-align: center;
+	vertical-align: top;
+}
+
+#imageparagraph{
+	font-family: arial;
+	font-size: 12pt;
+	width:140px;
+	border-width:2px;
+	border-style: solid;
+	background-color:#eeeeef;
+	text-align: center;
+	margin: -4px auto 10px auto;
+
+}
+
+#imagetext {
+	font-family: arial;
+	font-size: 10pt;
+	width: 140px;
+	text-align: left;
+	margin: 0 auto;
+}
+
+.image img{
+	width:140px;
+	border-width: 2px 2px 0 2px;
+	border-style: solid;
+}
+
+
+/* Page 3 */
+
+
+#middle3 {
+	flex:1; display:flex; align-items:stretch; flex-direction:column; border-width: 0 0px 0 2px; border-style: solid;
+	padding: 0px 40px 20px 40px;
+	display:inline-block;
+	height: 100%;
+	width: 900px;
+}
+
+.dish3, .prep {
+	width: 400px;
+	display: inline-block;
+	margin-right: 40px;
+	margin-bottom:30px;
+}
+
+#middle3 h2{
+	font-family: arial;
+	font-size: 20pt;
+	text-transform: uppercase;
+}
+
+.dish3 img {
+	width:350px;
+}
+
+#text3 {
+	font-family: arial;
+	font-size:10pt;
+}
+
+#backbutton {
+	background-color: orange;
+
+}
+
+.ingredients {
+	width:400px;
+	background-color: #ffe59e;
+	display:inline-block;
+	vertical-align: top;
+	padding: 0 20px 0 20px;
+	border-width: 1px;
+	border-style:solid;
+}
+
+.ingredients h3 {
+	font-family: arial;
+	font-size:12pt;
+}
+
+.ingredients table{
+	font-family: arial;
+	font-size: 10pt;
+	border-width:1px 0 0 0;
+	border-style:solid;
+	margin: 0 10px 0 10px;
+	width:100%;
+}
+
+.ingredients td{
+	line-height: 30px;
+}
+
+.confirmbutton {
+	background-color: orange;
+	margin:20px 0 20px 10px;
+}
+
+.tabletot td{
+
+}
+
+.ingredients hr{
+	position:relative;
+	bottom:70px;
+	left:10px;
+	background-color:black;
+}
+
+
+
+/*PAGE 4*/
+
+
+.middle-top4 {
+	height:80px; background-color: #ffe59e; padding: 0px 40px; border-width:0 0 2px 0; border-style: solid;
+
+}
+
+.middle-top4 span{
+	font-family: arial; font-size:24pt; text-align: left; line-height:80px;
+
+}
+
+.middle-top4 input{
+	float: left;
+}
+
+.middle-top4 button{
+	background-color: orange; float:right; margin-right: 50px;
+	height: 25px; margin-top:27px;
+}
+
+
+.middle-top4 select{
+	float: left;
+}
+
+
+
+#images4{
+	margin: 60px 10px 0px 10px;
+	text-align: center;
+	width:620px;
+	display: inline-block;
+	margin-left: 200px;
+	border-width: 0 2px 0 0;
+	border-style: solid;
+	
+
+}
+
+.image4 {
+	width: 200px; height:200px;
+	display:inline-block;
+	text-align: center;
+	vertical-align: top;
+	background-color: white;
+}
+
+#imageparagraph{
+	font-family: arial;
+	font-size: 12pt;
+	width:140px;
+	border-width:2px;
+	border-style: solid;
+	text-align: center;
+	margin: -4px auto 10px auto;
+
+}
+
+#pengar {
+	font-family: arial;
+	font-size:12pt;
+	color:#990000;
+	text-align: right;
+	width: 140px;
+	margin:0 auto;
+}
+
+
+.image4 img{
+	width:140px;
+	border-width: 2px 2px 0 2px;
+	border-style: solid;
+}
+
+#totalpengar{
+	font-family: arial;
+	font-size: 12pt;
+	height:64px;
+	width:200px;
+	text-align: left;
+	display:inline-block;
+	vertical-align: bottom;
+	line-height: 10px;
+}
+
+
+#totalvalue {
+	color:#990000;
+}
+
+#totalimages{
+	margin:0 auto;
+	width:1100px;
+	border-width:0 0 2px 0;
+	border-style:solid;
+	padding-bottom: 40px; 
+}
+
+.buttondiv {
+	text-align:center;
+	margin:0 auto;
+	margin-top: 40px;
+}
+
+.print {
+	background-color: orange;
+	width: 200px;
+	height:30px;
+
+}
+
+
+
+
+/*PAGE 5*/
+
+
+
+.middle-top5 {
+	height:80px; background-color: #ffe59e; padding: 0px 40px; border-width:0 0 2px 0; border-style: solid;
+
+}
+
+.middle-top5 span{
+	font-family: arial; font-size:24pt; text-align: left; line-height:80px;
+
+}
+
+.middle-top5 input{
+	float: left;
+}
+
+.middle-top5 button{
+	background-color: orange; float:right; margin-right: 50px;
+	height: 25px; margin-top:27px;
+}
+
+
+.middle-top5 select{
+	float: left;
+}
+
+
+
+#middle-bottom img{
+	margin:40px 20px 0 60px;
+	border-width: 2px;
+	border-style: solid;
+	vertical-align: top;
+	width: 140px;
+
+}
+
+.text5 {
+	font-family: arial;
+	font-size: 10pt;
+	width:300px;
+	height: 200px;
+	vertical-align: top;
+	display: inline-block;
+}
+
+#rubrik {
+	font-family: arial;
+	font-size: 18pt;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 20px;
+}
+
+#text5 {
+	margin-top: -10px;
+}
+
+.prep {
+	display: inline-block;
+	width:400px;
+	margin-left: 40px;
+}
+
+#preprubrik {
+	font-family: arial;
+	font-size: 12pt;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-top: 30px;
+} 
+
+#preptext {
+	font-family: arial;
+	font-size: 10pt;
+	margin-top: 20px;
+}
+
+#loading {
+	margin: 30px;
+}
+#error{
+	margin: 30px;
+	color: red;
+}
+
+
+
+
+body {
+	height:100%;margin:0;
+       display:flex; align-items:stretch; 
+       flex-direction:column;
+    	font-family: arial;
+}

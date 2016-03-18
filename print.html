@@ -1,0 +1,24 @@
+<div id="middle4">
+	<div class="middle-top4">
+		<span>My dinner: <span id="guestnum">{{getNumberOfGuests()}}</span> people</span>
+		<button id="editbutton" ng-click="editclick('/search')" type="button">Go back and edit dinner</button>
+	</div>
+
+	<div id="totalimages">
+		<div id="images4">
+			<div class="image4" ng-repeat="dish in menu">
+				<img ng-src = "{{dish.ImageURL}}">
+				<p id="imageparagraph">{{dish.Title}}</p>
+				<p id="pengar">{{dishPrice(dish)}} SEK</p>
+			</div>
+
+		</div>
+		<div id="totalpengar">
+			<p id="total4">Total: </p>
+			<p id="totalvalue">{{menuPrice()}} SEK</p>
+		</div>
+	</div>
+	<div class="buttondiv">
+		<button class="print" ng-click="printclick('/last')" type="button">Print Full Recipe</button>
+	</div>
+</div>
